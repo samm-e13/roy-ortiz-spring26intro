@@ -4,33 +4,93 @@
     <meta charset="UTF-8">
     <meta name="description" description="My test page.">
     <title>Roy Ortiz Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
+<nav class="nav_cont">
+  <a class="style_nav" href="#About"> About </a>
+  <a class="style_nav" href="#Experience"> Experience </a>
+  <a class="style_nav" href="#Skills"> Skills </a>
+  <a class="style_nav" href="#Projects"> Projects </a>
+  <a class="style_nav" href="#Connect"> Connect </a>
+</nav>
+
 <body>
-<h1> Roy Ortiz </h1>
+<div class = "section">
+<h1 class="name_style"> Roy Ortiz </h1>
+</div>
+
+<div class = "section">
 <Section id="About"> 
-<h2> About </h2>
+<h2 class="font"> About </h2>
 </Section>
 <p>Roy has a natural inclination towards coding and has a background in 
    in mathematics. I have a ton of experience with sql and tableau. At 
    the end of the day, I would like ot work in data engineering or as 
    an analyts, I want to formally learn python. 
 </p>
+</div>
+
+<div class = "styled">
 <section id="Experience"> 
-<h2> Experience </h2>
+<h2 class="font"> Experience </h2>
 </Section>
-<ul> 
+<div class="experience_flex"> 
+  <div class="job_descrip">
+    <h3> Job 1 Title, Dates Here</h3>
+    <p> Job Description </p>
+  </div>
+</div>
+
+<div class="experience_flex"> 
+  <div class="job_descrip">
+    <h3> Job 2 Title, Dates Here</h3>
+    <p> Job Description </p>
+  </div>
+</div>
+</div>
+<!--  
+</div>
+<ul class="experience_flex"> 
     <li>SQL (Vertica and Snowflake)</li>
     <li> Tableau </li>
     <li> Modeling - GLM's (linear regression and Logreg)</li>
-    <li> B.S. Mathematics - focus on stats and probabiliyt </li>
+    <li> B.S. Mathematics - focus on stats and probability </li>
     <li> 4years analytics experience working mostly with sql. </li>
 </ul>
+</div>
+-->
+<div class="section"> 
+<Section id="Skills"> 
+<h2 = class="font"> Skills </h2>
+</section>
+</div>
+
+<div class="section"> 
+<Section id="Projects"> 
+<h2 = class="font"> Projects </h2>
+<ul> </ul>
+</section>
+</div>
+
+<div class = "box links">
 <Section id = "Connect"> 
-<h2> Connect </h2>
+<h2 class="font"> Connect </h2>
 </Section>
-<ul> 
+<div class="connect_flex">
+  <h4> GitHub: https://github.com/samm-e13  </h4>
+</div>
+
+<div class="connect_flex">
+  <h4> LinkedIn: ortiz linkedin (I made this up as I dont have one)  </h4>
+</div>
+</div>
+<!--  
+<ul class="centered"> 
     <li> https://github.com/samm-e13 </li>
     <li> ortiz linkedin (I made this up as I dont have one) </li>
 </ul>
+-->
+
 </body>
 </html>

@@ -1,0 +1,68 @@
+body {
+    background-color: pearl;
+    font-family: Courier, 'Courier New';
+    color: black;
+
+    .section {
+        margin: 20px;
+        padding: 5px;
+    }
+    .box {
+        text-align: center;
+    }
+
+    .centered {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .font {
+        font-size: large;
+        font-weight: 300;
+        color: black;
+    }
+
+    .name_style {
+        font-size: large;
+        font-weight: 300;
+        color: black;
+        font-style: italic;
+    }
+
+    .styled {
+        margin: 10px;
+        padding: 5px;
+        background-color: pearl;
+        border: 10px dashed black
+    }
+
+    .links {
+        color: purple;
+        font-style: italic;
+    }
+
+    .nav_cont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .style_nav {
+        margin: 10px;
+        border: 3px solid black;
+    }
+
+    .experience_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .job_descrip {
+        flex: 1;
+    }
+
+    .connect_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
