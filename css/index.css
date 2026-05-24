@@ -1,68 +1,80 @@
 body {
-    background-color: pearl;
-    font-family: Courier, 'Courier New';
-    color: black;
+  background-color: #f0e6d6;
+  font-family: Courier, "Courier New";
+  color: black;
+}
+.section {
+  margin: 20px;
+  padding: 5px;
+}
+.box {
+  text-align: center;
+}
 
-    .section {
-        margin: 20px;
-        padding: 5px;
-    }
-    .box {
-        text-align: center;
-    }
+.centered {
+  text-align: center;
+  list-style-position: inside;
+}
 
-    .centered {
-        text-align: center;
-        list-style-position: inside;
-    }
+.font {
+  font-size: large;
+  font-weight: 300;
+  color: black;
+}
 
-    .font {
-        font-size: large;
-        font-weight: 300;
-        color: black;
-    }
+.name_style {
+  font-size: large;
+  font-weight: 300;
+  color: black;
+  font-style: italic;
+}
 
-    .name_style {
-        font-size: large;
-        font-weight: 300;
-        color: black;
-        font-style: italic;
-    }
+.styled {
+  margin: 10px;
+  padding: 5px;
+  background-color: pearl;
+  border: 10px dashed black;
+}
 
-    .styled {
-        margin: 10px;
-        padding: 5px;
-        background-color: pearl;
-        border: 10px dashed black
-    }
+.links {
+  color: purple;
+  font-style: italic;
+}
 
-    .links {
-        color: purple;
-        font-style: italic;
-    }
+.nav_cont {
+  display: flex;
+  justify-content: center;
+}
 
-    .nav_cont {
-        display: flex;
-        justify-content: center;
-    }
+.style_nav {
+  margin: 10px;
+  border: 3px solid black;
+}
 
-    .style_nav {
-        margin: 10px;
-        border: 3px solid black;
-    }
+.experience_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.job_descrip {
+  flex: 1;
+}
 
-    .experience_flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .job_descrip {
-        flex: 1;
-    }
+.connect_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .connect_flex {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
+#skills ul {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
