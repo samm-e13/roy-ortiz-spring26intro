@@ -2,45 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" description="My test page.">
+    <meta name="description" content="My test page.">
     <title>Roy Ortiz Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<nav class="nav_cont">
-  <a class="style_nav" href="#About"> About </a>
-  <a class="style_nav" href="#Experience"> Experience </a>
-  <a class="style_nav" href="#Skills"> Skills </a>
-  <a class="style_nav" href="#Projects"> Projects </a>
-  <a class="style_nav" href="#Connect"> Connect </a>
-</nav>
-
 <body>
+  <nav class="nav_cont">
+    <a class="style_nav" href="#About"> About </a>
+    <a class="style_nav" href="#Experience"> Experience </a>
+    <a class="style_nav" href="#skills"> Skills </a>
+    <a class="style_nav" href="#Projects"> Projects </a>
+    <a class="style_nav" href="#Connect"> Connect </a>
+  </nav>
+
 <div class = "section">
 <h1 class="name_style"> Roy Ortiz </h1>
 </div>
 
 <div class = "section">
-<Section id="About"> 
+<section id="About"> 
 <h2 class="font"> About </h2>
-</Section>
+
 <p>Roy has a natural inclination towards coding and has a background in 
    in mathematics. I have a ton of experience with sql and tableau. At 
-   the end of the day, I would like ot work in data engineering or as 
-   an analyts, I want to formally learn python. 
+   the end of the day, I would like to work in data engineering or as 
+   an analyst, I want to formally learn python. 
 </p>
 </div>
+</section>
 
 <div class = "styled">
 <section id="Experience"> 
 <h2 class="font"> Experience </h2>
-</Section>
+
 <div class="experience_flex"> 
   <div class="job_descrip">
     <h3> Job 1 Title, Dates Here</h3>
     <p> Job Description </p>
   </div>
-</div>
+  </div>
+</section>
 
 <div class="experience_flex"> 
   <div class="job_descrip">
@@ -49,6 +51,7 @@
   </div>
 </div>
 </div>
+
 <!--  
 </div>
 <ul class="experience_flex"> 
@@ -60,29 +63,31 @@
 </ul>
 </div>
 -->
-<div class="section"> 
-<Section id="Skills"> 
-<h2 = class="font"> Skills </h2>
-</section>
-</div>
 
 <div class="section"> 
-<Section id="Projects"> 
-<h2 = class="font"> Projects </h2>
+<section id="Projects"> 
+<h2 class="font"> Projects </h2>
 <ul> </ul>
 </section>
 </div>
 
 <div class = "box links">
-<Section id = "Connect"> 
+
+<section id = "skills"> 
+<h2> Skills </h2>
+
+<ul></ul>
+
+</section>
+<section id = "Connect"> 
 <h2 class="font"> Connect </h2>
-</Section>
+</section>
 <div class="connect_flex">
-  <h4> GitHub: https://github.com/samm-e13  </h4>
+  <h4> <a href="//github.com/samm-e13"> GitHub</a> </h4>
 </div>
 
 <div class="connect_flex">
-  <h4> LinkedIn: ortiz linkedin (I made this up as I dont have one)  </h4>
+  <h4> <a href="https://www.linkedin.com/feed"> Linkedin</a>  </h4>
 </div>
 </div>
 <!--  
@@ -91,6 +96,6 @@
     <li> ortiz linkedin (I made this up as I dont have one) </li>
 </ul>
 -->
-
+  <script src= "js/index.js" defer> </script>
 </body>
 </html>
