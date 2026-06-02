@@ -78,3 +78,21 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+#message input {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid black;
+}
+
+#message textarea {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid black;
+  vertical-align: bottom;
+}
+
+#message button {
+  padding: 20px;
+  length: 50px;
+}
